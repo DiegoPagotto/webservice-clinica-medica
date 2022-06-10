@@ -12,10 +12,11 @@ class Conexao
 
     private function __construct()
     {
-        $hostname = "localhost";
-        $database = "clinica_medica";
-        $username = "root";
-        $password = "";
+        //Info here just for educational purposes
+        $hostname = "us-cdbr-east-05.cleardb.net";
+        $database = "heroku_4b09fd71950aeff";
+        $username = "b5dfd00d639577";
+        $password = "627a2c03"; 
 
         $dsn = "mysql:host=$hostname;dbname=$database";
         $options = [
