@@ -13,10 +13,10 @@ class Conexao
     private function __construct()
     {
         //Info here just for educational purposes
-        $hostname = "us-cdbr-east-05.cleardb.net";
-        $database = "heroku_4b09fd71950aeff";
-        $username = "b5dfd00d639577";
-        $password = "627a2c03"; 
+        $hostname = "sql10.freemysqlhosting.net";
+        $database = "sql10499148";
+        $username = "sql10499148";
+        $password = "ZfHFfhJwvf"; 
 
         $dsn = "mysql:host=$hostname;dbname=$database";
         $options = [
