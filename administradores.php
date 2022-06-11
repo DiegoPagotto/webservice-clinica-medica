@@ -100,12 +100,5 @@ if(isMetodo("POST")){
         header("HTTP/1.1 400 Bad Request");
         echo json_encode($resposta);
     }
-} else{
-    $resposta = [
-        "status" => "erro",
-        "mensagem" => "Operação inválida!"
-    ];
-    header("HTTP/1.1 405 Method Not Allowed");
-    echo json_encode($resposta);
 }
 ?>
