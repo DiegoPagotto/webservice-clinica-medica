@@ -65,7 +65,7 @@
                     }
                 }
                 else{
-                    throw new UnexpectedValueException("Id não encontrado");
+                    return false;
                 }
             }
             catch(Exception $e){
