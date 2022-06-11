@@ -58,9 +58,7 @@
                         return false;
                     }
                 }
-                else{
-                    throw new UnexpectedValueException("Consulta não existe");
-                }
+              
             }catch(Exception $e){
                 echo $e->getMessage();
                 exit;
